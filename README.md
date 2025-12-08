@@ -4,13 +4,13 @@ Nur Farah Husna binti Junaidi (2024148067)
 
 ---
 
-## 📌 Project Summary
+## Project Summary
 This project implements a simple AI pipeline for classifying short English sentences into **positive** or **negative** sentiment.  
-I compare a **naïve keyword-based baseline** with a **pretrained transformer model** (`distilbert-base-uncased-finetuned-sst-2-english`) and evaluate their performance on a small custom dataset of 40 sentences.
+I compared a **naïve keyword-based baseline** with a **pretrained transformer model** (`distilbert-base-uncased-finetuned-sst-2-english`) and evaluate their performance on a small dataset of 40 sentences.
 
 ---
 
-## 🧪 Methods Used
+## Methods Used
 ### 1. Naïve Baseline  
 A simple keyword rule-based classifier.  
 It works on explicit words but fails on subtle context or negation.
@@ -21,7 +21,7 @@ It handles context, negation, and more natural phrasing.
 
 ---
 
-## 📊 Results
+## Results
 | Model | Accuracy |
 |-------|----------|
 | Baseline | **0.80** |
@@ -31,13 +31,13 @@ The AI model correctly identifies subtle emotional tone and handles edge cases w
 
 ---
 
-## 📁 Files in This Repository
+## Files in This Repository
 - `text_sentiment_pipeline.ipynb` — full notebook with baseline + AI pipeline  
 - `report.pdf` — full report using the official Overleaf template (required for HW submission)
 
 ---
 
-## ▶️ How to Run the Notebook
+## How to Run the Notebook
 1. Install dependencies:
    ```bash
    pip install transformers pandas scikit-learn
