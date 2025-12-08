@@ -32,12 +32,9 @@ The AI model correctly identifies subtle emotional tone and handles edge cases w
 ---
 
 ## Files in This Repository
+In this repository, I provided the
 - `text_sentiment_pipeline.ipynb` — full notebook with baseline + AI pipeline  
-- `report.pdf` — full report using the official Overleaf template (required for HW submission)
-
+- `report.pdf` — full report 
+required for Homework 6 submission.
 ---
 
-## How to Run the Notebook
-1. Install dependencies:
-   ```bash
-   pip install transformers pandas scikit-learn
